@@ -1,0 +1,10 @@
+---
+- name: This playbook will have apache complete stack
+  hosts: myservers
+  tasks:
+   - name: Please install apache2
+     package:
+         name: apache2
+         state: present
+               
+
